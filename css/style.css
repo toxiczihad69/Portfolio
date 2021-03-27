@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: 0.3s;
+}
+*{
+    text-decoration: none;
+}
+.container{
+
+    width: 1140px;
+    margin: auto;
+}
+.container-full{
+    width: 100%;
+}
+li{ list-style: none;
+}
+
+/*header*/
+
+.header-area{
+    background-image: linear-gradient(to right, #006aae, #007ab1, #0087ac, #0093a1, #009d94, #009a97, #009799, #00949b, #0082af, #006bc7, #004ed0, #0010b9);
+}
+#nav{
+    height: 70px;
+}
+.logo-area {
+	float: left;
+}
+.logo-area a {
+	font-size: 30px;
+	font-family: 'Dela Gothic One', cursive;
+	display: block;
+	padding: 10px 0px;
+    color:white;
+}
+.logo-area a span {
+	color: #a3fff6;
+}
+.menu {
+	float: right;
+}
+.menu ul li {
+	display: inline-block;
+	margin-right: 30px;
+}
+.menu ul li a {
+	display: block;
+	padding: 10px 0px;
+	font-size: 15px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+	margin: 20px 0px;
+    color: white;
+    position: relative;   
+}
+.menu ul li a::before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    bottom: 2px;
+    background: white;
+}
+.menu ul li a:hover:before{
+    width: 100%;
+}
+
+/*Home-Section*/
+
+.home-section{
+    background-image: url(../img/macbook-2617705_1920.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 600px;
+}
+.overlay{
+    background-color: rgba(0,0,0,.2);
+    height: 600px;
+}
+
+/*home-text*/
+
+.home-content{
+    padding-top: 200px;
+}
+.home-text{
+text-align: center;
+color: white;
+display: block;
+}
+.home-text h2 {
+	font-size: 50px;
+	font-family: 'Francois One', sans-serif;
+    padding-bottom: 10px;
+}
+.home-text h1 {
+	font-size: 60px;
+    font-family: 'Francois One', sans-serif;
+}
+
+/*home button*/
+
+.home-btn {
+	text-align: center;
+	display: block;
+	margin-top: 20px;
+}
+.home-btn a {
+	color: white;
+	background-color: #0059CC;
+	border-radius: 14px;
+	padding: 8px 17px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 17px;
+	margin: 0px 5px;
+	transition: .3s;
+}
+.home-btn a:hover{
+    background-color: #5B5B5B;
+    
+}
+
+/*About-Section*/
+
+.about-section{
+    background-image: linear-gradient(to right, #3136b3, #2c38b4, #253ab5, #1e3bb5, #153db6, #0a45b8, #024cba, #0053bb, #0060bb, #006bb7, #0074b0, #007ca8);
+    overflow: hidden;
+    height: 500px;
+}
+
+.about-content {
+	padding-top: 30px;
+    height: 500px;
+}
+.about-content h2 {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Francois One', sans-serif;
+	color: white;
+	display: block;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+    -webkit-transition: 0.2s ease-in-out;
+}
+.about-content h2:hover{
+    color: #fffc39;
+}
+.about-text {
+	width: 59%;
+	margin-top: 30px;
+	float: left;
+}
+.about-text h3 {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-bottom: 13px;
+    color: white;
+}
+.about-text p {
+	text-align: justify;
+	font-size: 22px;
+	font-family: 'Oswald', sans-serif;
+    color: white;
+}
+.about-img {
+	width: 39%;
+	float: right;
+	text-align: center;
+}
+.about-img img {
+	width: 65%;
+	border-radius: 50%;
+}
+
+/*Career Section*/
+
+.career-section{
+    background-image: url(../img/landscape.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.career-section .overlay{
+    background-color: rgba(0,0,0,.5);
+    height: 400px;
+}
+.career-content{padding-top: 30px;
+    height: 300px;
+}
+.career-content h2{text-align: center;
+	font-size: 40px;
+	font-family: 'Francois One', sans-serif;
+	color: white;
+	display: block;
+	text-transform: uppercase;
+	padding-bottom: 35px;
+    -webkit-transition: 0.2s ease-in-out;
+}
+.career-content h2:hover{color: #fffc39;
+}
+.career1{
+    width: 49%;
+    float: left;
+}
+.career1 h3{text-align: left;
+	font-size: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-bottom: 35px;
+    color: white;}
+.career1 ul li{	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+    list-style: inside;
+}
+.career2{
+    width: 49%;
+    float: right;
+}
+.career2 h3{text-align: left;
+	font-size: 30px;
+	font-family: 'Josefin Sans', sans-serif;
+	padding-bottom: 35px;
+    color: white;
+}
+.career2 ul li {
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-size: 22px;
+    list-style: inside;
+}
+
+/*Contact-section*/
+
+.contact-section{
+    background-image: linear-gradient(to right, #3600cd, #2f07c9, #270dc5, #1e12c1, #1415bd, #0031c7, #0045cf, #0057d6, #0077df, #008ed1, #009fb8, #02aca1);   
+    overflow: hidden;
+    height: 550px;
+}
+.contact-content {
+	width: 100%;
+	padding-top: 30px;
+}
+.contact-content h2 {
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Francois One', sans-serif;
+	color: white;
+	display: block;
+	text-transform: uppercase;
+	padding-bottom: 40px;
+	padding-top: 20px;
+    -webkit-transition: 0.2s ease-in-out;
+}
+.contact-content h2:hover{color: #fffc39;
+}
+.contact-form {
+	width: 40%;
+	float: left;
+}
+.contact-form input {
+	width: 80%;
+	display: block;
+	margin: 5px;
+	padding: 2px 0px 2px 10px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+	border: 2px solid black;
+	font-size: 15px;
+}
+.contact-form textarea {
+	width: 79%;
+	margin-left: 5px;
+	padding: 3px 5px 68px 9px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 15px;
+	border: 2px solid black;
+}
+.contact-form button {
+	display: block;
+	font-size: 15px;
+	padding: 3px 8px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-weight: 600;
+	margin: 3px 5px;
+	border: 2px solid black;
+}
+
+
+.contact-map{
+    width: 60%;
+    float: right;
+}
+
+/**footer-section*/
+
+.footer {
+	background-color: #333333;
+	height: 170px;
+}
+.footer-text {
+	text-align: center;
+	color: white;
+	padding-top: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.footer-text h3 {
+	padding-bottom: 10px;
+	font-size: 22px;
+}
+.footer-text h4 {
+	font-size: 16px;
+}
+.footer-logo{
+    color: white;
+    text-align: center;
+}
+.footer-logo a {
+	display: inline-block;
+	color: white;
+	font-size: 30px;
+	margin: 15px 15px;
+    -webkit-transition: 0.2s ease-in-out;
+}
+#facebook:hover{
+    color: #0778E9;
+}
+#twitter:hover{
+    color: #1DA1F2;
+}
+#instagram:hover{
+    background-image: linear-gradient(to right bottom, #4766c6, #825cc0, #ad50b0, #cc4499, #e13e7c, #e53f71, #e74265, #e8475a, #e5455f, #e24464, #df4369, #db436e);
+
+}
+#linkedin:hover{
+    color: #0077B5;
+}

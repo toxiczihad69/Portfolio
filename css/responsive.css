@@ -1,0 +1,248 @@
+/*responsive css file*/
+
+/* Desktop Display :992px-1200px. */
+@media (min-width: 992px) and (max-width: 1200px){
+    .home-content {
+        padding-top: 170px;
+    }
+    .container {
+        width: 950px;
+    }
+    .overlay {
+        height: 550px;
+    }
+    .home-section {    
+        height: 550px;
+    }
+    .about-img img {
+        width: 73%;
+        padding-top: 23px;
+    }
+    #map{
+        width: 555px;
+    }
+    .footer {
+        height: 160px;
+    }
+}
+
+
+/* Tablet Display : 768px-991px. */
+@media (min-width: 768px) and (max-width: 991px){
+    .container {
+        width: 710px;
+    }
+    .menu ul li {
+        margin-right: 19px;
+    }
+    .home-content {
+        padding-top: 110px;
+    }
+    .home-text h2 {
+        font-size: 45px;
+    }
+    .home-text h1 {
+        font-size: 52px;
+    }
+    .overlay {
+        height: 420px;
+    }
+    .home-section {
+        height: 420px;
+    }
+    .about-text p {
+        font-size: 19px;
+    }
+    .about-img img {
+        width: 91%;
+        padding-top: 35px;
+    }
+    .career1 h3 {
+        font-size: 27px;
+        padding-bottom: 25px;
+    }
+    .career1 ul li {
+        color: white;
+        font-size: 19px;
+    }
+
+    .career2 h3 {
+        font-size: 24px;
+        padding-bottom: 25px;
+    }
+    .contact-content h2 {
+        padding-bottom: 40px;
+        padding-top: 10px;
+    }
+    
+    #map {
+        width: 430px;
+    }
+    .footer-text {
+        padding-top: 23px;
+    }
+    .footer {
+        height: 145px;
+    }
+}
+
+
+/* Small Mobile Display : 320px-767px. */
+@media (min-width: 320px) and (max-width: 767px){
+    /* Header Section */
+    .container {
+        width: 300px;
+    }
+    .header{
+        height: 50px;
+    }
+    #nav {
+        height: 50px;
+    }
+    .logo-area a {
+        font-size: 20px;
+    }
+    .menu ul li {
+        margin: 0;
+    }
+    .menu ul li a {
+        display: inline-block;
+        padding: 23px 1px;
+        font-size: 10px;
+        margin: 0;
+    }
+    /*Home Section*/
+    .home-content {
+        padding-top: 50px;
+    }
+    .home-text h2 {
+        font-size: 25px;
+    }
+    .home-text h1 {
+        font-size: 31px;
+        padding-bottom: 0px;
+    }
+    .home-btn a {
+        padding: 6px 7px;
+        font-size: 10px;
+        margin: 0px 1px;
+    }
+    .overlay {
+        height: 250px;
+    }
+    .home-section {
+        height: 250px;
+    }
+    /*About Section*/
+
+    .about-section {
+        height: 670px;
+    }
+    .about-content h2 {
+        font-size: 28px;
+        padding-bottom: 0px;
+    }
+    .about-text h3 {
+        text-align: left;
+        font-size: 25px;
+        padding-bottom: 13px;
+    }
+    .about-text p {
+        font-size: 15px;
+    }
+    .about-text {
+        width: 100%;
+        margin-top: 23px;
+        float: left;
+    }
+    .about-img {
+        width: 100%;
+        text-align: center;
+    }
+    .about-img img {
+        width: 97%;
+        border-radius: 8%;
+        margin-top: 11px;
+    }
+    /* Career Content */
+
+    .career-content {
+        padding-top: 20px;
+    }
+    .career-content h2 {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+    .career1 h3 {
+        font-size: 14px;
+        padding-bottom: 22px;
+    }
+    .career1 ul li {
+        font-size: 13px;
+        line-height: 32px;
+    }
+    .career2 h3 {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    .career2 ul li {
+        font-size: 13px;
+    }
+    .career-section {
+        background-image: url(../img/landscape320px.jpg);
+        height: 310px;
+    }
+    /* Contact Content */
+    .contact-section {
+        height: 665px;
+    }
+
+    .contact-content {
+        width: 100%;
+        padding-top: 0;
+    }
+    .contact-content h2 {
+        font-size: 28px;
+        padding-bottom: 20px;
+    }
+    .contact-form {
+        width: 110%;
+        float: left;
+    }
+    .contact-form input {
+        width: 81%;
+        border: 1px solid black;
+        font-size: 12px;
+    }
+    .contact-form textarea {
+        width: 80%;
+        font-size: 12px;
+        border: 1px solid black;
+    }
+    .contact-form button {
+        font-size: 15px;
+        padding: 3px 8px;
+        font-weight: 100;
+        border: 1px solid black;
+        margin: 8px 115px;
+        border-radius: 10px;
+    }
+    #map{
+        width: 300px;
+    }
+    .contact-map {
+        width: 100%;
+        float: right;
+    }
+    /* Footer Section*/
+    .footer-text {
+        padding-top: 20px;
+    }
+    .footer-text h3 {
+        font-size: 14px;
+    }
+    .footer-text h4 {
+        font-size: 13px;
+    }
+
+}
